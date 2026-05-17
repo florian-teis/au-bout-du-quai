@@ -1233,10 +1233,6 @@ section {
     align-items: start;
 }
 
-.chef-split.reverse .chef-split-inner {
-    grid-template-columns: 1fr 1fr;
-}
-
 .chef-split.reverse .chef-split-image {
     order: 2;
 }
@@ -1473,9 +1469,10 @@ section {
 
 .menu-cat-sub::before,
 .menu-cat-sub::after {
-    content: '— ';
+    content: '·';
     display: inline;
-    margin: 0 0.5rem;
+    margin: 0 0.6rem;
+    color: var(--grey-dim);
 }
 
 .menu-item {
