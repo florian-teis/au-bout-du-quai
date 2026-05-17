@@ -1469,10 +1469,9 @@ section {
 
 .menu-cat-sub::before,
 .menu-cat-sub::after {
-    content: '·';
+    content: '— ';
     display: inline;
-    margin: 0 0.6rem;
-    color: var(--grey-dim);
+    margin: 0 0.5rem;
 }
 
 .menu-item {
