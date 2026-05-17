@@ -1,0 +1,15 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Anciens fichiers temporaires
+convert_logo.py
+save_images.py
+
+# Logs
+*.log
+npm-debug.log*
