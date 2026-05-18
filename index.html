@@ -7,7 +7,8 @@
     <meta name="description" content="Au Bout du Quai, restaurant gastronomique aux Sables-d'Olonne face au port de pêche. Cuisine de la mer, produits de la criée, terroir vendéen. Réservation 02 51 32 97 20.">
     <meta name="keywords" content="restaurant Sables d'Olonne, restaurant gastronomique Sables d'Olonne, Au Bout du Quai, poisson, fruits de mer, Vendée, port de pêche, chef Franck, restaurant Quai du Brise Lames">
     <meta name="author" content="Au Bout du Quai">
-    <meta name="robots" content="index, follow">
+    <!-- TEMPORAIRE : bloque l'indexation Google pendant la phase démo. À retirer une fois le restaurant ok. -->
+    <meta name="robots" content="noindex, nofollow">
     <meta name="geo.region" content="FR-85">
     <meta name="geo.placename" content="Les Sables-d'Olonne">
     <meta name="geo.position" content="46.4961;-1.7944">
@@ -16,8 +17,9 @@
     <!-- Canonical -->
     <link rel="canonical" href="https://florian-teis.github.io/au-bout-du-quai/">
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="assets/logo.png">
+    <!-- Favicon (adapté thème clair / sombre) -->
+    <link rel="icon" type="image/png" href="assets/logo.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="assets/logo-white.png" media="(prefers-color-scheme: dark)">
     <link rel="apple-touch-icon" href="assets/logo.png">
 
     <!-- Open Graph / Facebook / WhatsApp / LinkedIn -->

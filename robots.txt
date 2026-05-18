@@ -1,4 +1,8 @@
-User-agent: *
-Allow: /
+# TEMPORAIRE : bloque toute indexation pendant la phase démo (avant validation du restaurant)
+# Quand le restaurant aura validé, remplacer par :
+#   User-agent: *
+#   Allow: /
+#   Sitemap: https://florian-teis.github.io/au-bout-du-quai/sitemap.xml
 
-Sitemap: https://florian-teis.github.io/au-bout-du-quai/sitemap.xml
+User-agent: *
+Disallow: /
