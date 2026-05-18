@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://florian-teis.github.io/au-bout-du-quai/sitemap.xml
